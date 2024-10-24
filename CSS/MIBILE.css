@@ -1,12 +1,11 @@
 @charset "UTF-8";
 
-
-header, header > nav{
+    header > nav{
     flex-flow: column nowrap;
     }
     
     header >h1{
-        flex-basis: 50px;
+        flex-basis: 30px;
     }
     header > nav> a {
         width: 90vw;
@@ -14,7 +13,12 @@ header, header > nav{
     .audio{
         display: flex;
         flex-wrap: wrap;
-        max-width: 700px;
+        max-width: 500px;
         margin: 0 auto;
 
     }
+    .img{/*imagem*/
+        max-width: 100%;
+        display: flex;
+        max-width: 500px;
+        margin: 0 auto;}
