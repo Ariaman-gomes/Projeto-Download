@@ -77,8 +77,14 @@ img{
     margin: 0 auto;
     color: white;
 }
-.flex >a ,div{
-    color: white;
+.flex > div{
+
+    flex: 1 1 200px;
+    margin: 15px 10px;
+}
+
+.flex >a, div{
+
     flex: 1 1 200px;
     margin: 15px 10px;
 }
