@@ -30,6 +30,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     text-align: center;
+    
     background-color: rgb(44, 13, 13);
     padding: 20PX;
     margin-top: auto;
@@ -57,5 +58,10 @@ body{
     transition: background-color .2s;
     transition: color black;
     margin: auto;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
 }
 
